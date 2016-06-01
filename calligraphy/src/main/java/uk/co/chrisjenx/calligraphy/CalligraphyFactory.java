@@ -31,6 +31,7 @@ class CalligraphyFactory {
         // Try to find the specific actionbar styles
         if (isActionBarTitle(view)) {
             styleIds[0] = android.R.attr.actionBarStyle;
+            
             styleIds[1] = android.R.attr.titleTextStyle;
         } else if (isActionBarSubTitle(view)) {
             styleIds[0] = android.R.attr.actionBarStyle;
